@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 웹사이트</title>
+    <style>
+        /* 기본 스타일 설정 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            background-color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 영역 -->
+    <header>
+        <h1>간단한 웹사이트</h1>
+    </header>
+
+    <!-- 네비게이션 바 -->
+    <nav>
+        <a href="#home">홈</a>
+        <a href="#about">소개</a>
+        <a href="#contact">연락처</a>
+    </nav>
+
+    <!-- 메인 콘텐츠 영역 -->
+    <main>
+        <section id="home">
+            <h2>홈</h2>
+            <p>여기는 홈 섹션입니다. 웹사이트의 첫 페이지입니다.</p>
+        </section>
+
+        <section id="about">
+            <h2>소개</h2>
+            <p>여기는 소개 섹션입니다. 웹사이트에 대한 설명을 포함합니다.</p>
+        </section>
+
+        <section id="contact">
+            <h2>연락처</h2>
+            <p>여기는 연락처 섹션입니다. 연락 정보를 포함합니다.</p>
+        </section>
+    </main>
+
+    <!-- 푸터 영역 -->
+    <footer>
+        <p>&copy; 2024 간단한 웹사이트. 모든 권리 보유.</p>
+    </footer>
+
+</body>
+</html>
